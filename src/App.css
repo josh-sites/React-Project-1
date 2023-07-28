@@ -1,0 +1,54 @@
+nav {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+.navImage {
+  width: 7vw;
+}
+
+.navHeader {
+  color: #61DFFB;
+  font-size: 5vw;
+  text-align: justify;
+}
+
+.navHeader2 {
+  color: white;
+  font-size: 4vw;
+  margin-left: auto;
+}
+
+.main {
+  padding: 57px 67px !important;
+  color: white;
+  background-image: url("./assets/react-icon-large.png");
+  background-repeat: no-repeat;
+  background-position: right 100%;
+  background-size: 25vw;
+}
+
+.main > h1 {
+  letter-spacing: -0.05em;
+  font-size: 5vw;
+}
+
+.main > ul {
+  font-size: 3vw;
+  flex-wrap: wrap;
+  margin-top: 46px;
+  max-width: 600px;
+}
+
+.main > ul > li {
+  margin-bottom: 30px !important;
+}
+
+.main > ul > li::marker {
+  color: #61DFFB;
+  font-size: 2.4rem;
+}
